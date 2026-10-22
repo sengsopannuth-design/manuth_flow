@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact - Our Team</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <style>
+        
+        body {
+            background-color: #382f29;
+            color: #382f29;
+             font-family: Arial, sans-serif;
+        }
+
+        .team-header {
+            background: linear-gradient(135deg, #382f29, #382f29);
+            color: #382f29;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .team-card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: 0.3s;
+            height: 100%;
+        }
+
+        .team-card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+        }
+
+        .member-photo {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #382f29;
+        }
+
+        .telegram-btn {
+            background-color: #229ED9;
+            color: rgb(62, 54, 54);
+            border-radius: 25px;
+            padding: 9px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .telegram-btn:hover {
+            background-color: #168ac0;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="text-white p-3 fixed-top" style="background-color: #3d332d;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <img src="img/LOGO copy.jpg" alt="Logo" class="me-2 rounded-circle object-fit-cover" width="64" height="64">
+                <h1 class="h3 mb-0">Coffee Shop</h1>
+            </div>
+            <div>
+                <a href="index.html" class="text-light me-1 btn btn-dark">Home</a>
+                <a href="product.html" class="text-light me-1 btn btn-dark">Products</a>
+                <a href="popular.html" class="text-light me-1 btn btn-dark">Popular</a>
+                <a href="contact.html"  class="text-light me-1 btn btn-dark">
+                    Contact
+                </a>
+                <a href="about.html" class="text-light me-1 btn btn-dark">About Us</a>
+            </div>
+            <div class="d-flex gap-3" style="font-size: 1.5rem;">
+                <a href="#"><i style="color: #1452d7;" class="fab fa-facebook"></i></a>
+                <a href="#"><i style="color: #0996ed;" class="fab fa-twitter"></i></a>
+                <a href="#"><i style="color: #e1306c;" class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header -->
+    <header class="team-header">
+        <div class="container">
+            <h1 class="fw-bold">Meet Our Team</h1>
+            <p class="lead mb-0">
+                Get to know the people behind our project.
+                Contact us through Telegram.
+            </p>
+        </div>
+    </header>
+
+    <!-- Team Members -->
+    <section class="container py-5">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Our Team Members</h2>
+            <p class="text-secondary">
+                We work together to make our project better.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Member 1 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card team-card shadow-sm text-center p-4">
+                    <div>
+                        <img src="/img/nuth.jpg"
+                             alt="Team member 1"
+                             class="member-photo">
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="fw-bold">Seng Sopannuth</h4>
+                        <p class="text-primary">Team Leader</p>
+
+                        <p class="text-secondary">
+                            Responsible for managing the team
+                            and developing the website.
+                        </p>
+
+                        <a href="https://t.me/kimnuth168"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="telegram-btn">
+                            <i class="fa-brands fa-telegram"></i>
+                            Telegram
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card team-card shadow-sm text-center p-4">
+                    <div>
+                        <img src="/img/sokun.jpg"
+                             alt="Team member 1"
+                             class="member-photo">
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="fw-bold">Uk Rothsokun</h4>
+                        <p class="text-primary">Team Leader</p>
+
+                        <p class="text-secondary">
+                            Responsible for managing the team
+                            and developing the website.
+                        </p>
+
+                        <a href="https://t.me/Tong_Rong"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="telegram-btn">
+                            <i class="fa-brands fa-telegram"></i>
+                            Telegram
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Member 2 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card team-card shadow-sm text-center p-4">
+                    <div>
+                        <img src="/img/savorn.jpg"
+                             alt="Team member 2"
+                             class="member-photo">
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="fw-bold">Vuth Savorn</h4>
+                        <p class="text-primary">Frontend Developer</p>
+
+                        <p class="text-secondary">
+                            Creates the website layout and
+                            designs the user interface.
+                        </p>
+
+                        <a href="https://t.me/SAVORN_VUTH"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="telegram-btn">
+                            <i class="fa-brands fa-telegram"></i>
+                            Telegram
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Member 3 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card team-card shadow-sm text-center p-4">
+                    <div>
+                        <img src="/img/heang.jpg"
+                             alt="Team member 3"
+                             class="member-photo">
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="fw-bold">Mey Heang</h4>
+                        <p class="text-primary">Backend Developer</p>
+
+                        <p class="text-secondary">
+                            Works on the system logic and
+                            manages project data.
+                        </p>
+
+                        <a href="https://t.me/HeangDigital"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="telegram-btn">
+                            <i class="fa-brands fa-telegram"></i>
+                            Telegram
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">
+            &copy; 2026 My Store. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
